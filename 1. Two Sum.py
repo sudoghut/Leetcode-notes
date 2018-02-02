@@ -1,3 +1,5 @@
+#https://leetcode.com/articles/two-sum/
+
 class Solution:
     def twoSum(self, nums, target):
         """
@@ -22,5 +24,6 @@ print(a.twoSum([3,3],6))
 
 """
 NOTES:
+
 right the index function by myself will be better than just using index
 """
