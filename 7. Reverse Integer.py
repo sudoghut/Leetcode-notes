@@ -5,8 +5,8 @@ class Solution:
         :rtype: int
         """
         arr = []
-        for i,v in enumerate(str(x)):
-                arr.append(v)
+        for i in str(x):
+            arr.append(i)
         arr_rev = arr[::-1]
         output = ""
         for i in arr_rev:
@@ -14,7 +14,7 @@ class Solution:
         if output[-1] == "-":
             output = "-"+output[:-1]
         int_output = int(output)
-        if abs(int_output)<=2147483647:
+        if abs(int_output)<=(2**31-1):
             return int_output
         else:
             return 0
