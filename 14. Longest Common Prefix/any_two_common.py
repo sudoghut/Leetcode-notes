@@ -28,5 +28,5 @@ class Solution:
                 else: pass
         return prefix_arr[0]
 test = Solution()
-#print(test.longestCommonPrefix(["abdcd","abd","abcx","ccccccx","ccccccccx","ddddddx","dddddddddddddddb"]))
-print(test.longestCommonPrefix(["a","a","b"]))
+print(test.longestCommonPrefix(["abdcd","abd","abcx","ccccccx","ccccccccx","ddddddx","dddddddddddddddb"]))
+
